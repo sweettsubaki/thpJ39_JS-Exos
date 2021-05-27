@@ -1,3 +1,6 @@
+console.log("Script n°6")
+console.log("Aujourd'hui on va parler d'acides aminés")
+
 function acidsAmines(aRN){
     let threeLetter = aRN.length / 3;
     let arnArray = [];
@@ -51,3 +54,4 @@ function acidsAmines(aRN){
 
 acidsAmines("CCGUCGUUGCGCUACAGC");
 acidsAmines("CCUCGCCGGUACUUCUCG");
+console.log("si vous ne comprenez pas le résultat venez voir le code ٩(｡•́‿•̀｡)۶")

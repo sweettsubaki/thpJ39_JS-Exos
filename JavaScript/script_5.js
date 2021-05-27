@@ -12,7 +12,7 @@ const books = [
     { title: 'Voyage au centre de la Terre', id: 4656388, rented: 38 },
     { title: 'Guerre et Paix', id: 748147, rented: 19 }
   ];
-
+  console.log("Script n°5")
   console.log(books)
 
   //Est-ce que tous les livres ont été au moins empruntés une fois ?
@@ -45,10 +45,10 @@ const books = [
           return 0;
       }
   });
-  console.log(`Le livre le plus empruntés est :  ${books[0].title} avec ${books[0].rented} emprunt !`);
+  console.log(`Le livre le plus empruntés est  ${books[0].title} avec ${books[0].rented} emprunt !`);
   
   //Quel est le livre le moins emprunté ?
-  console.log("Quel est le livre le moins emprunté ?");
+  console.log("Quel est le livre le moins emprunté :");
 
   books.sort(function(a, b){
       if (a.rented > b.rented){
@@ -59,19 +59,19 @@ const books = [
           return 0;
       }
   });
-  console.log(`Le livre le mois empruntés est : ${books[0].title} avec ${books[0].rented} emprunt !`);
+  console.log(`Le livre le moins empruntés est ${books[0].title} avec ${books[0].rented} emprunt !`);
   
   //Trouve le livre avec l'ID: 873495 ;
-  console.log("Trouve le livre avec l'ID: 873495 ");
+  console.log("Trouve le livre avec l'ID: 873495 :");
 
   books.find(function (index){
       if (index.id === 873495){
-          console.log(`Le livre qui a l'id n˚873495 est : ${index.title}`);
+          console.log(`Le livre qui a l'id n˚873495 est ${index.title}`);
       }
   });
   
   //Supprime le livre avec l'ID: 133712 ;
-  console.log("Supprime le livre avec l'ID: 133712");
+  console.log("Supprime le livre avec l'ID: 133712 :");
 
   books.forEach(function (index){
       index.id === 133712 ? books.splice(books.indexOf(index), 1) : "";
@@ -80,7 +80,7 @@ const books = [
   console.log(books);
   
   //Trie les livres par ordre alphabétique (sans celui avec l'ID 133712 car il est supprimé).
-  console.log("Trie les livres par ordre alphabétique (sans celui avec l'ID 133712 car il est supprimé).")
+  console.log("Trie les livres par ordre alphabétique (sans celui avec l'ID 133712 car il est supprimé) :")
 
   books.sort(function (a, b){
       if (a.title > b.title){
@@ -92,3 +92,4 @@ const books = [
       }
   });
   console.log(books);
+  console.log("On en a finit avec cette page (o^▽^o) !")

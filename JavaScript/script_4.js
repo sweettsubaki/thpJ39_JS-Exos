@@ -18,11 +18,11 @@ const entrepreneurs = [
     { first: 'Marc', last: 'Andreessen', year: 1971 },
     { first: 'Peter', last: 'Thiel', year: 1967 }
   ];
-
-
+console.log("Script n°4")
+console.log(entrepreneurs)
 // Les seventies ! -----------------------------------------------------------------------
 
-  console.log("Filtre dans cette liste les entrepreneurs qui sont nés dans les années 70");
+  console.log("Filtre dans cette liste les entrepreneurs qui sont nés dans les années 70 :");
 
   let seventies = []
 
@@ -35,7 +35,7 @@ const entrepreneurs = [
 
 // Les prénoms et les noms !  ----------------------------------------------------------------
 
-console.log("Sors une array qui contient le prénom et le nom des entrepreneurs")
+console.log("Sors une array qui contient le prénom et le nom des entrepreneurs :")
 let fullName = []
 
 entrepreneurs.forEach(function (index){
@@ -58,7 +58,7 @@ console.log(wasBorn);
 
 // Trie les entrepreneurs par ordre alphabétique du nom de famille.
 
-console.log("Trie les entrepreneurs par ordre alphabétique du nom de famille.");
+console.log("Trie les entrepreneurs par ordre alphabétique du nom de famille :");
 
 entrepreneurs.sort(function (a, b){
 
@@ -74,10 +74,4 @@ entrepreneurs.sort(function (a, b){
 
 console.log(entrepreneurs);
 
-console.log("FIN !");
-
-  /*
-  Filtre dans cette liste les entrepreneurs qui sont nés dans les années 70 ;
-  Sors une array qui contient le prénom et le nom des entrepreneurs ;
-  Quel âge aurait chaque inventeur aujourd'hui ?
-  Trie les entrepreneurs par ordre alphabétique du nom de famille.*/
+console.log("FIN ☆*:.｡.o(≧▽≦)o.｡.:*☆ !");

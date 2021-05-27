@@ -1,3 +1,4 @@
+console.log("Script n°1 : ")
 console.log("Hello World !\n");
 
 let name = prompt("Quel est ton nom");

@@ -1,4 +1,4 @@
-
+console.log("Script n°3")
 let num = prompt("Hello, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?");
 
 for (let i = 1; i <= num; i++){
